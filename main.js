@@ -186,13 +186,4 @@ $(document).ready(function(){
         });        
     }
 
-    function objHtml(index,value){
-        objhtml[index]=value
-    }
-
-    (function(){
-        //Retrieve the object from storage
-        var obj = localStorage.getItem('viewObject');
-        
-        console.log('retrievedObject: ', JSON.parse(obj));
-    })();
+    
